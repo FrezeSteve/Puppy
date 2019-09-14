@@ -40,6 +40,13 @@
           >Delete</a
         >
       </li>
+      <li class="nav-item">
+        <a
+          class="nav-link {% if url == 'add_owner' %} active {% endif %}"
+          href="{{ url_for('add_owner') }}"
+          >Add Owner</a
+        >
+      </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input
